@@ -1,8 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import { NavLink, Link } from "react-router-dom"
 import HomePage from "./components/pages/HomePage"
 import About from "./components/pages/About"
-import Navigation from "./components/Navigation/Navigation"
 import Contact from "./components/pages/Contact"
 
 
