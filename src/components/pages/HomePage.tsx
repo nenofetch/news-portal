@@ -1,17 +1,18 @@
 import Footer from "../Footer/Footer"
 import Header from "../Header/Header"
+import CardNews from "./news/CardNews"
 import Navigation from "../Navigation/Navigation"
+import CarouselSlide from "./news/CarouselSlide"
 
 function HomePage() {
-    return(
-        <div>
-            <Header/>
-            <Navigation/>
-            <div className="container">
-                <h2>Coming Soon ...</h2>
-            </div>
-            <Footer/>
-        </div>
+    return (
+        <>
+            <Header />
+            <Navigation />
+            {/* <CarouselSlide /> */}
+            <CardNews />
+            <Footer />
+        </>
     )
 }
 

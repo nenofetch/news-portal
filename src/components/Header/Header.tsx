@@ -1,9 +1,9 @@
 function Header() {
-    return(
-        <header>
-            <h1 className="mb-4 font-semibold text-4xl text-center">News Portal</h1>
-        </header>
-    )
+  return (
+    <header className="text-white bg-blue-500 p-4 w-100 font-bold text-4xl text-center">
+      News Portal
+    </header>
+  );
 }
 
-export default Header
+export default Header;

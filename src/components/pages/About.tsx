@@ -11,7 +11,6 @@ function About() {
             <h2 className="text-center text-2xl">News Apps</h2>
             <p className="text-center justify-center">Project ini dibuat menggunakan Vite, React JS, Tailwind CSS</p>
             </div>
-            
             <Footer/>
         </div>
     )
